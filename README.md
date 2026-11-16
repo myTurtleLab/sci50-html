@@ -28,7 +28,7 @@ Sci-50 is a calculator you can carry in your phone: the same keys, menus and two
 
 > Free, with no ads, no account and no subscription. If Sci-50 helps you get ready for your exams, consider buying me a coffee.
 >
-> [![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/flyingturtle)
+> <a href="https://buymeacoffee.com/flyingturtle"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="45"></a>
 
 ## Made for HKDSE students
 
@@ -51,27 +51,28 @@ Sci-50 is a calculator you can carry in your phone: the same keys, menus and two
 
 Every calculation below was keyed into the app key by key, as a person would key it, and the answer was read from what the display shows. All of them run again before each release. Results are for version 0.3.22.
 
-Answers are judged at this calculator type's precision, as its user's guide states it: up to 10 digits shown, 15 digits used inside, and ±1 in the 10th digit for one calculation. The books were written for a more advanced calculator, so a book's answer counts as matched when, rounded to the digits this display shows, it is the same.
+Answers are judged at the precision the CASIO fx-50FH II user's guide states for this calculator type: up to 10 digits shown, 15 digits used inside, and ±1 in the 10th digit for one calculation. The other books were written for a more advanced calculator, so their answer counts as matched when, rounded to the digits this display shows, it is the same.
 
-| Book | Calculations in the book | Used | Passed | Book's answer at this precision | Same value, shown as a decimal | Within ±1 in the 10th digit | Differs for a stated reason | Failed | Not possible on this calculator type |
+| <sub>Source</sub> | <sub>Cases</sub> | <sub>Used</sub> | <sub>Passed</sub> | <sub>Matches the book</sub> | <sub>Same value, shown differently</sub> | <sub>Within ±1 in the 10th digit</sub> | <sub>Differs for a stated reason</sub> | <sub>Failed</sub> | <sub>Not possible on this calculator type</sub> |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| CASIO Teaching Materials: *Real-Life Problems* | 553 | 354 | 352 | 340 | 12 | 0 | 2 | 0 | 199 |
-| CASIO Teaching Materials: *Chemistry Materials* | 207 | 134 | 131 | 126 | 5 | 0 | 3 | 0 | 73 |
-| CASIO Teaching Materials: *Physics Materials* | 168 | 124 | 115 | 114 | 1 | 0 | 9 | 0 | 44 |
-| Martin Meyer, *College Math by practical application* (InnoLearn UG, 2009) | 134 | 82 | 82 | 71 | 10 | 1 | 0 | 0 | 52 |
-| **Total** | **1,062** | **694** | **680** | **651** | **28** | **1** | **14** | **0** | **368** |
+| <sub>CASIO <i>fx-50FH II 用戶說明書</i> (user's guide, Traditional Chinese edition, RJA528155-001V01): every worked example and stated rule</sub> | <sub>335</sub> | <sub>335</sub> | <sub>335</sub> | <sub>321</sub> | <sub>14</sub> | <sub>0</sub> | <sub>0</sub> | <sub>0</sub> | <sub>0</sub> |
+| <sub>CASIO Teaching Materials: <i>Real-Life Problems</i></sub> | <sub>553</sub> | <sub>354</sub> | <sub>352</sub> | <sub>340</sub> | <sub>12</sub> | <sub>0</sub> | <sub>2</sub> | <sub>0</sub> | <sub>199</sub> |
+| <sub>CASIO Teaching Materials: <i>Chemistry Materials</i></sub> | <sub>207</sub> | <sub>134</sub> | <sub>131</sub> | <sub>126</sub> | <sub>5</sub> | <sub>0</sub> | <sub>3</sub> | <sub>0</sub> | <sub>73</sub> |
+| <sub>CASIO Teaching Materials: <i>Physics Materials</i></sub> | <sub>168</sub> | <sub>124</sub> | <sub>115</sub> | <sub>114</sub> | <sub>1</sub> | <sub>0</sub> | <sub>9</sub> | <sub>0</sub> | <sub>44</sub> |
+| <sub>Martin Meyer, <i>College Math by practical application</i> (InnoLearn UG, 2009)</sub> | <sub>134</sub> | <sub>82</sub> | <sub>82</sub> | <sub>71</sub> | <sub>10</sub> | <sub>1</sub> | <sub>0</sub> | <sub>0</sub> | <sub>52</sub> |
+| <sub><b>Total</b></sub> | <sub><b>1,397</b></sub> | <sub><b>1,029</b></sub> | <sub><b>1,015</b></sub> | <sub><b>972</b></sub> | <sub><b>42</b></sub> | <sub><b>1</b></sub> | <sub><b>14</b></sub> | <sub><b>0</b></sub> | <sub><b>368</b></sub> |
 
 How to read the columns:
-- **Used:** the calculations this calculator type can do. **Passed** adds up the next three columns.
-- **Book's answer at this precision:** the display shows the book's answer, or the book's number rounded to the 10 digits this display shows (76 cases). It includes 116 calculations keyed another way, because the book's key does not exist on this calculator type: for example, a table value worked out as f(x) with x stored in X.
-- **Same value, shown as a decimal:** the right value, shown as a decimal where the book shows a fraction, a surd or a multiple of π.
+- **Cases:** the user's guide's worked examples and stated rules, or the calculations in a book. **Used:** those this calculator type can do. **Passed** adds up the next three columns.
+- **Matches the book:** the display shows the printed answer, or the book's number rounded to the 10 digits this display shows (76 cases). For the user's guide the whole screen is compared: upper line, lower line, labels and indicators; 29 of its 321 are rules the guide states without a printed answer (input ranges, limits, example programs), and each is followed. For the other books this column includes 116 calculations keyed another way, because the book's key does not exist on this calculator type: for example, a table value worked out as f(x) with x stored in X.
+- **Same value, shown differently:** the value is right; only the display differs. In the books, a decimal where the book shows a fraction, a surd or a multiple of π (28). In the user's guide (14): two statistics labels read xσn and xσn−1 where the guide writes σx and Sx, by design; eleven constant symbols draw their digit full size (C0) where the guide draws it small (C₀); and at a built-in formula's prompt the upper line keeps the formula's name where the guide leaves it empty. These last 12 are logged for a later version.
 - **Within ±1 in the 10th digit:** a repeated Newton step shows 32.36067977 where the book shows 32.36067978. The exact root, 10 + 10√5 = 32.3606797749979…, rounds to 32.36067977.
-- **Differs for a stated reason:** every one follows from this calculator type's own specification. 12 use scientific constants: this calculator type holds the CODATA 2010 values, the books' calculator newer ones, so the last digits differ. 2 are binary numbers outside this calculator type's binary range of −512 to 511, so Sci-50 shows Math ERROR.
+- **Differs for a stated reason:** every one follows from this calculator type's own specification, as its user's guide gives it. 12 use scientific constants: this calculator type holds the CODATA 2010 values, the books' calculator newer ones, so the last digits differ. 2 are binary numbers outside this calculator type's binary range of −512 to 511, so Sci-50 shows Math ERROR.
 - **Not possible on this calculator type:** the equation solver, vectors, matrices, probability distributions, Σ, integrals and derivatives, the spreadsheet, unit conversion and other features this calculator type does not have.
 
 More references are still being checked. They will be added here when every case is settled.
 
-Sources: [CASIO Teaching Materials](https://www.casio.com/intl/scientific-calculators/teaching-materials/) (*Real-Life Problems*) and [Physics and Chemistry Materials](https://www.casio.com/intl/scientific-calculators/essential-materials/), free from CASIO; Martin Meyer, *College Math by practical application*, InnoLearn UG, 2009. These books were used only as a source of test calculations and their published answers; nothing from them is in the app or in this repository. Sci-50 is not affiliated with, endorsed by or sponsored by CASIO Computer Co., Ltd., InnoLearn UG or the author. CASIO and the titles of the CASIO Teaching Materials are trademarks or titles of CASIO Computer Co., Ltd.
+Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA528155-001V01); [CASIO Teaching Materials](https://www.casio.com/intl/scientific-calculators/teaching-materials/) (*Real-Life Problems*) and [Physics and Chemistry Materials](https://www.casio.com/intl/scientific-calculators/essential-materials/), free from CASIO; Martin Meyer, *College Math by practical application*, InnoLearn UG, 2009. These guides and books were used only as a source of test calculations and their published answers; nothing from them is in the app or in this repository. Sci-50 is not affiliated with, endorsed by or sponsored by CASIO Computer Co., Ltd., InnoLearn UG or the author. CASIO, fx-50FH II and the titles of the CASIO Teaching Materials are trademarks or titles of CASIO Computer Co., Ltd.
 
 ## Use it
 
