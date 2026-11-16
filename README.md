@@ -53,20 +53,19 @@ Every calculation below was keyed into the app key by key, as a person would key
 
 Answers are judged at the precision the CASIO fx-50FH II user's guide states for this calculator type: up to 10 digits shown, 15 digits used inside, and ±1 in the 10th digit for one calculation. The other books were written for a more advanced calculator, so their answer counts as matched when, rounded to the digits this display shows, it is the same.
 
-| <sub>Source</sub> | <sub>Cases</sub> | <sub>Used</sub> | <sub>Passed</sub> | <sub>Matches the book</sub> | <sub>Same value, shown differently</sub> | <sub>Within ±1 in the 10th digit</sub> | <sub>Differs for a stated reason</sub> | <sub>Failed</sub> | <sub>Not possible on this calculator type</sub> |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| <sub>CASIO <i>fx-50FH II 用戶說明書</i> (user's guide, Traditional Chinese edition, RJA528155-001V01): every worked example and stated rule</sub> | <sub>335</sub> | <sub>335</sub> | <sub>335</sub> | <sub>321</sub> | <sub>14</sub> | <sub>0</sub> | <sub>0</sub> | <sub>0</sub> | <sub>0</sub> |
-| <sub>CASIO Teaching Materials: <i>Real-Life Problems</i></sub> | <sub>553</sub> | <sub>354</sub> | <sub>352</sub> | <sub>340</sub> | <sub>12</sub> | <sub>0</sub> | <sub>2</sub> | <sub>0</sub> | <sub>199</sub> |
-| <sub>CASIO Teaching Materials: <i>Chemistry Materials</i></sub> | <sub>207</sub> | <sub>134</sub> | <sub>131</sub> | <sub>126</sub> | <sub>5</sub> | <sub>0</sub> | <sub>3</sub> | <sub>0</sub> | <sub>73</sub> |
-| <sub>CASIO Teaching Materials: <i>Physics Materials</i></sub> | <sub>168</sub> | <sub>124</sub> | <sub>115</sub> | <sub>114</sub> | <sub>1</sub> | <sub>0</sub> | <sub>9</sub> | <sub>0</sub> | <sub>44</sub> |
-| <sub>Martin Meyer, <i>College Math by practical application</i> (InnoLearn UG, 2009)</sub> | <sub>134</sub> | <sub>82</sub> | <sub>82</sub> | <sub>71</sub> | <sub>10</sub> | <sub>1</sub> | <sub>0</sub> | <sub>0</sub> | <sub>52</sub> |
-| <sub><b>Total</b></sub> | <sub><b>1,397</b></sub> | <sub><b>1,029</b></sub> | <sub><b>1,015</b></sub> | <sub><b>972</b></sub> | <sub><b>42</b></sub> | <sub><b>1</b></sub> | <sub><b>14</b></sub> | <sub><b>0</b></sub> | <sub><b>368</b></sub> |
+| <sub>Source</sub> | <sub>Cases</sub> | <sub>Used</sub> | <sub>Passed</sub> | <sub>Matches the book</sub> | <sub>Same value, shown differently</sub> | <sub>Differs for a stated reason</sub> | <sub>Failed</sub> | <sub>Not possible on this calculator type</sub> |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| <sub>CASIO <i>fx-50FH II 用戶說明書</i> (user's guide, Traditional Chinese edition, RJA528155-001V01): every worked example and stated rule</sub> | <sub>335</sub> | <sub>335</sub> | <sub>335</sub> | <sub>321</sub> | <sub>14</sub> | <sub>0</sub> | <sub>0</sub> | <sub>0</sub> |
+| <sub>CASIO Teaching Materials: <i>Real-Life Problems</i></sub> | <sub>553</sub> | <sub>354</sub> | <sub>352</sub> | <sub>340</sub> | <sub>12</sub> | <sub>2</sub> | <sub>0</sub> | <sub>199</sub> |
+| <sub>CASIO Teaching Materials: <i>Chemistry Materials</i></sub> | <sub>207</sub> | <sub>134</sub> | <sub>131</sub> | <sub>126</sub> | <sub>5</sub> | <sub>3</sub> | <sub>0</sub> | <sub>73</sub> |
+| <sub>CASIO Teaching Materials: <i>Physics Materials</i></sub> | <sub>168</sub> | <sub>124</sub> | <sub>115</sub> | <sub>114</sub> | <sub>1</sub> | <sub>9</sub> | <sub>0</sub> | <sub>44</sub> |
+| <sub>Martin Meyer, <i>College Math by practical application</i> (InnoLearn UG, 2009)</sub> | <sub>134</sub> | <sub>82</sub> | <sub>82</sub> | <sub>72</sub> | <sub>10</sub> | <sub>0</sub> | <sub>0</sub> | <sub>52</sub> |
+| <sub><b>Total</b></sub> | <sub><b>1,397</b></sub> | <sub><b>1,029</b></sub> | <sub><b>1,015</b></sub> | <sub><b>973</b></sub> | <sub><b>42</b></sub> | <sub><b>14</b></sub> | <sub><b>0</b></sub> | <sub><b>368</b></sub> |
 
 How to read the columns:
-- **Cases:** the user's guide's worked examples and stated rules, or the calculations in a book. **Used:** those this calculator type can do. **Passed** adds up the next three columns.
-- **Matches the book:** the display shows the printed answer, or the book's number rounded to the 10 digits this display shows (76 cases). For the user's guide the whole screen is compared: upper line, lower line, labels and indicators; 29 of its 321 are rules the guide states without a printed answer (input ranges, limits, example programs), and each is followed. For the other books this column includes 116 calculations keyed another way, because the book's key does not exist on this calculator type: for example, a table value worked out as f(x) with x stored in X.
+- **Cases:** the user's guide's worked examples and stated rules, or the calculations in a book. **Used:** those this calculator type can do. **Passed** adds up the next two columns.
+- **Matches the book:** the display shows the printed answer at this calculator type's precision. That includes the book's number rounded to the 10 digits this display shows (76 cases) and one answer within ±1 in the 10th digit, the accuracy the user's guide states for one calculation. For the user's guide the whole screen is compared: upper line, lower line, labels and indicators; 29 of its 321 are rules the guide states without a printed answer (input ranges, limits, example programs), and each is followed. For the other books this column includes 116 calculations keyed another way, because the book's key does not exist on this calculator type: for example, a table value worked out as f(x) with x stored in X.
 - **Same value, shown differently:** the value is right; only the display differs. In the books, a decimal where the book shows a fraction, a surd or a multiple of π (28). In the user's guide (14): two statistics labels read xσn and xσn−1 where the guide writes σx and Sx, by design; eleven constant symbols draw their digit full size (C0) where the guide draws it small (C₀); and at a built-in formula's prompt the upper line keeps the formula's name where the guide leaves it empty. These last 12 are logged for a later version.
-- **Within ±1 in the 10th digit:** a repeated Newton step shows 32.36067977 where the book shows 32.36067978. The exact root, 10 + 10√5 = 32.3606797749979…, rounds to 32.36067977.
 - **Differs for a stated reason:** every one follows from this calculator type's own specification, as its user's guide gives it. 12 use scientific constants: this calculator type holds the CODATA 2010 values, the books' calculator newer ones, so the last digits differ. 2 are binary numbers outside this calculator type's binary range of −512 to 511, so Sci-50 shows Math ERROR.
 - **Not possible on this calculator type:** the equation solver, vectors, matrices, probability distributions, Σ, integrals and derivatives, the spreadsheet, unit conversion and other features this calculator type does not have.
 
@@ -80,9 +79,9 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
 1. Open https://hylhk23.github.io/sci50-html/.
 2. To keep it as an app: on iPhone or iPad, tap Share → **Add to Home Screen**; on Android or a computer, choose **Install app** (or **Add to Home screen**) in the browser menu. It then opens in its own window and works without internet.
 
-**Option 2 — download the file (computers)**
+**Option 2 — download the file (computers and Android phones)**
 1. Download [sci50.html](sci50.html) and save it anywhere.
-2. Double-click it to open it in your browser. No internet or installation needed.
+2. Open it in your browser: on a computer, double-click it; on an Android phone, tap it in your Files or Downloads app and choose your browser. No internet or installation needed.
 3. Optional check that the file is genuine — compare its SHA-256 fingerprint with [sci50.html.sha256](sci50.html.sha256):
    - Windows (Command Prompt or PowerShell): `certutil -hashfile sci50.html SHA256`
    - macOS / Linux: `shasum -a 256 sci50.html`
@@ -112,16 +111,49 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
 
 ## How it is built (overview)
 
-```mermaid
-flowchart LR
-  E["Calculator engine<br/>keys in, display out<br/>no screen, storage or network"] --> D["Display and keypad<br/>draw the two-line LCD<br/>and the faceplate"]
-  D --> S["App shell<br/>menus, themes, Program Library,<br/>backup, saving in the browser"]
-  S --> B["Build<br/>one self-contained file"]
-  B --> F["sci50.html<br/>download, offline"]
-  B --> W["This website<br/>installable, offline cache"]
+The whole app is one HTML page. Its parts, from the outside in:
+
+```text
+sci50.html  (one self-contained file, about 0.7 MB)
+│
+├── <head>  (set-up)
+│    ├── <meta> character set and viewport: fits phones and computers
+│    ├── <meta> Content-Security-Policy: no network connection is allowed
+│    ├── <title>, app icon (the website adds the app manifest)
+│    └── <style> every style and theme, minified
+│
+├── <body>  (what you see)
+│    └── div#app
+│         ├── div#calc  (the calculator)
+│         │    ├── header: calculator name, ? program help, ⋮ menu
+│         │    ├── div#banner: the orange line
+│         │    ├── div#face: the faceplate (a theme, or your own photo)
+│         │    │    ├── canvas#lcd: the two-line display, drawn dot by dot
+│         │    │    └── div#keypad: 50 keys with their SHIFT and ALPHA labels
+│         │    └── section#look-card: formula explanation (LOOK)
+│         ├── div#sheet: menu pages (Program Library, Theme, Settings,
+│         │              Backup & Restore, User Guide, About)
+│         └── div#toast: short messages
+│
+└── <script>  (one bundled script, minified)
+     ├── Calculator engine: keys in, display state out
+     │    ├── modes COMP, CMPLX, BASE, SD, REG and PRGM
+     │    ├── expression reader, 15-digit arithmetic, display formats
+     │    ├── 23 built-in formulas, 40 constants, statistics
+     │    └── program editor and runner: 4 areas sharing 680 bytes
+     ├── Display: 16 dot-matrix characters above, 10 digits below
+     ├── Keypad and faceplate: key layout, themes, your own photo
+     ├── App shell: menus, Program Library (93 programs), User Guide,
+     │              Power Up Features, settings
+     ├── Storage: settings and programs in the browser's local storage,
+     │            your photo in IndexedDB, backups to a .json file
+     └── Web layer: computer keyboard, clipboard, one copy open at a time
+
+Website only:  manifest.webmanifest (install), sw.js (offline cache), icons/
 ```
 
-- **One engine for every platform.** The same calculator engine runs the Sci-50 Android app and this web version. It only turns key presses into display states, so it behaves the same on every device and can be tested on its own.
+- **One engine for every platform.** The same calculator engine runs the Sci-50 Android app and this web version. It has no screen, storage or network code: it only turns key presses into display states, so it behaves the same on every device and can be tested on its own.
+- **The screen shows only what the engine reports.** The display and keypad draw each state the engine gives them and add nothing of their own, so what you see is what the tests checked.
 - **One file.** The build packs the engine, the display, the app and the Program Library into a single HTML file. Nothing else is downloaded when it runs.
 - **Private by design.** A strict security policy inside the file blocks every network connection. Your settings, programs and photos stay in your browser; the app has no server.
 - **Offline website.** This site adds an app manifest and a small offline cache, so the installed app opens without internet.
