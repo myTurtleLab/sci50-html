@@ -19,7 +19,7 @@ Sci-50 is a calculator you can carry in your phone: the same keys, menus and two
 
 | Benefit | What it means for you |
 | --- | --- |
-| Almost nothing new to learn | Keys, SHIFT and ALPHA functions, menus and the two-line display work key for key like the programmable calculator model Sci-50 follows, one of the calculators on the List of Permitted Calculators of the Hong Kong Examinations and Assessment Authority (HKEAA). |
+| Almost nothing new to learn | Works key for key like several programmable calculators on the Hong Kong Examinations and Assessment Authority (HKEAA) List of Permitted Calculators: the same keys, SHIFT and ALPHA functions, menus and two-line display.<br>與香港考試及評核局（考評局）「准用計算機型號名單」上多款可編程計算機逐鍵操作相同：按鍵、SHIFT 及 ALPHA 功能、選單和兩行顯示屏都一樣。 |
 | Practise before you buy | Junior secondary students can learn the keystrokes for fractions, degrees-minutes-seconds, statistics, complex numbers, base-n and programs early, before they own a calculator. |
 | Ready-made programs | 93 programs in the Program Library, including the 12 DSE programs (algebra and coordinate geometry), each with a key-by-key guide for typing it into your own calculator. |
 | Learn programming safely | Write and run your own keystroke programs (P1–P4) with the same memory limit as the real calculator, without touching the programs on your own calculator. |
