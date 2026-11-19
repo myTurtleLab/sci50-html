@@ -2,14 +2,14 @@
 
 **Practise your HKDSE calculator skills anywhere. Free, offline, nothing to install.**
 
-[![version](https://img.shields.io/badge/version-v0.3.22-0969DA)](https://hylhk23.github.io/sci50-html/)
-[![any browser](https://img.shields.io/badge/any%20browser-works%20offline-0969DA)](https://hylhk23.github.io/sci50-html/)
+[![version](https://img.shields.io/badge/version-v0.3.22-0969DA)](https://myturtlelab.github.io/sci50-html/)
+[![any browser](https://img.shields.io/badge/any%20browser-works%20offline-0969DA)](https://myturtlelab.github.io/sci50-html/)
 [![HKDSE](https://img.shields.io/badge/HKDSE-practice-8250DF)](#made-for-hkdse-students)
 [![price](https://img.shields.io/badge/price-free-1A7F37)](LICENSE.md)
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/flyingturtle)
 
 A two-line programmable scientific calculator that runs in your web browser, on a phone, tablet or computer.
-**Use it now:** https://hylhk23.github.io/sci50-html/ · **Download:** [sci50.html](sci50.html) (one file, works without internet)
+**Use it now:** https://myturtlelab.github.io/sci50-html/ · **Download:** [sci50.html](sci50.html) (one file, works without internet)
 
 ![Sci-50 on a phone: the dark theme explaining built-in formula 02 (cosine theorem), and the light theme with 6÷2(2+1) = 1](docs/images/sci50-screens.png)
 
@@ -76,7 +76,7 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
 ## Use it
 
 **Option 1 — on the website (recommended for phones and tablets)**
-1. Open https://hylhk23.github.io/sci50-html/.
+1. Open https://myturtlelab.github.io/sci50-html/.
 2. To keep it as an app: on iPhone or iPad, tap Share → **Add to Home Screen**; on Android or a computer, choose **Install app** (or **Add to Home screen**) in the browser menu. It then opens in its own window and works without internet.
 
 **Option 2 — download the file (computers and Android phones)**
@@ -86,7 +86,7 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
    - Windows (Command Prompt or PowerShell): `certutil -hashfile sci50.html SHA256`
    - macOS / Linux: `shasum -a 256 sci50.html`
 
-   SHA-256 of 0.3.22: `89cba701a3e3c87030bfced825adb67c7396bda2985971bb35ef1767c4aec8f8`
+   SHA-256 of 0.3.22: `ef89ac86f99d7a13e61106adb0ed987adf5549a953c7721b422e1d7a5ad06e51`
 
 ## First steps
 

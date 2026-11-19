@@ -6,7 +6,7 @@ Sci-50 programmable, including the files in this repository (`index.html`, `sci5
 
 ## What you may do
 
-You may use the app free of charge, for personal, study and teaching purposes, by opening it from https://hylhk23.github.io/sci50-html/ or from an unmodified copy of `sci50.html` downloaded from there. You may share the link.
+You may use the app free of charge, for personal, study and teaching purposes, by opening it from https://myturtlelab.github.io/sci50-html/ or from an unmodified copy of `sci50.html` downloaded from there. You may share the link.
 
 ## What you may not do without written permission from Neo Time Consulting
 
