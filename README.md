@@ -2,7 +2,7 @@
 
 **Practise your HKDSE calculator skills anywhere. Free, offline, nothing to install.**
 
-[![version](https://img.shields.io/badge/version-v0.3.22-0969DA)](https://myturtlelab.github.io/sci50-html/)
+[![version](https://img.shields.io/badge/version-v0.3.23-0969DA)](https://myturtlelab.github.io/sci50-html/)
 [![any browser](https://img.shields.io/badge/any%20browser-works%20offline-0969DA)](https://myturtlelab.github.io/sci50-html/)
 [![HKDSE](https://img.shields.io/badge/HKDSE-practice-8250DF)](#made-for-hkdse-students)
 [![price](https://img.shields.io/badge/price-free-1A7F37)](LICENSE.md)
@@ -49,7 +49,7 @@ Sci-50 is a calculator you can carry in your phone: the same keys, menus and two
 
 ## Tested against published answers
 
-Every calculation below was keyed into the app key by key, as a person would key it, and the answer was read from what the display shows. All of them run again before each release. Results are for version 0.3.22.
+Every calculation below was keyed into the app key by key, as a person would key it, and the answer was read from what the display shows. All of them run again before each release that changes the calculator. Results are for version 0.3.22; version 0.3.23 changed only the About box text.
 
 Answers are judged at the precision the CASIO fx-50FH II user's guide states for this calculator type: up to 10 digits shown, 15 digits used inside, and ±1 in the 10th digit for one calculation. The other books were written for a more advanced calculator, so their answer counts as matched when, rounded to the digits this display shows, it is the same.
 
@@ -86,7 +86,7 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
    - Windows (Command Prompt or PowerShell): `certutil -hashfile sci50.html SHA256`
    - macOS / Linux: `shasum -a 256 sci50.html`
 
-   SHA-256 of 0.3.22: `e6531bdb44a106b22d91e2dbed123201ce162ee1fd986521056cd553ec3b463d`
+   SHA-256 of 0.3.23: `a43484e68f61b6003cc194c24d01f895941186300c61734e236a84fad74826cb`
 
 ## First steps
 
@@ -98,6 +98,7 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
 ## Update and remove
 
 - **Update:** the website copy updates itself. After a new version is published, open the app once while online, then close and reopen it. For the downloaded file, download the new `sci50.html`.
+- **Latest change (0.3.23):** the About box shows "Law Sir @ myTurtleLab", and its website link now opens cal50.pwc.hk. The calculator itself is unchanged.
 - **Remove:** delete the installed app (or the downloaded file). To remove saved programs and settings too, clear this site's data in your browser settings — export a backup first if you want to keep them.
 
 ## Troubleshooting
@@ -185,4 +186,4 @@ Sci-50 is provided free of charge and "as is", without warranty of any kind. Che
 ## Licence
 
 Copyright © 2026 Neo Time Consulting, Hong Kong. All rights reserved. Free to use; see [LICENSE.md](LICENSE.md) and [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
-This repository holds only the published web app. Website: https://cal50.4u.hk
+This repository holds only the published web app. Website: https://cal50.pwc.hk
