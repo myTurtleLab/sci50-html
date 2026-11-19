@@ -86,7 +86,7 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
    - Windows (Command Prompt or PowerShell): `certutil -hashfile sci50.html SHA256`
    - macOS / Linux: `shasum -a 256 sci50.html`
 
-   SHA-256 of 0.3.22: `ea5e91198c6cb65202a502969ef748740d7dcdb287bdb7f28e31844ae7ffa68b`
+   SHA-256 of 0.3.22: `e6531bdb44a106b22d91e2dbed123201ce162ee1fd986521056cd553ec3b463d`
 
 ## First steps
 
