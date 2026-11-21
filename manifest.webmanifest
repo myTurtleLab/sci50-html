@@ -1,13 +1,13 @@
 {
-  "name": "Sci-50 programmable",
-  "short_name": "Sci-50",
-  "description": "A two-line programmable scientific calculator that works offline.",
+  "name": "PracCalc · DSE practice calculator",
+  "short_name": "PracCalc",
+  "description": "PracCalc (練機): a free DSE practice calculator, two-line and programmable, that works offline.",
   "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#1F2328",
+  "background_color": "#E3E4E7",
   "theme_color": "#1F2328",
   "icons": [
     {

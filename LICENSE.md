@@ -1,8 +1,8 @@
-# Licence — Sci-50 programmable (web version)
+# Licence — PracCalc (web version; formerly Sci-50 programmable)
 
 Copyright © 2026 Neo Time Consulting, Hong Kong. All rights reserved.
 
-Sci-50 programmable, including the files in this repository (`index.html`, `sci50.html`, the service worker, the manifest and the icons), its design, faceplate, themes, display, Program Library programs and documentation, is the property of Neo Time Consulting.
+PracCalc, including the files in this repository (`index.html`, `sci50.html`, the service worker, the manifest and the icons), its design, faceplate, themes, display, Program Library programs and documentation, is the property of Neo Time Consulting.
 
 ## What you may do
 
@@ -25,6 +25,6 @@ The app is provided "as is", without warranty of any kind, express or implied. T
 
 ## Names
 
-HKDSE and HKEAA are named only to describe what the app is for. Sci-50 is not affiliated with or endorsed by any calculator maker or by the Hong Kong Examinations and Assessment Authority.
+HKDSE and HKEAA are named only to describe what the app is for. PracCalc is not affiliated with or endorsed by any calculator maker or by the Hong Kong Examinations and Assessment Authority.
 
-Permission requests: https://cal50.4u.hk
+Permission requests: https://cal50.pwc.hk

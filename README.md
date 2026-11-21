@@ -1,8 +1,8 @@
-# Sci-50 programmable
+# PracCalc (練機) — DSE practice calculator
 
 **Practise your HKDSE calculator skills anywhere. Free, offline, nothing to install.**
 
-[![version](https://img.shields.io/badge/version-v0.3.23-0969DA)](https://myturtlelab.github.io/sci50-html/)
+[![version](https://img.shields.io/badge/version-v0.3.24-0969DA)](https://myturtlelab.github.io/sci50-html/)
 [![any browser](https://img.shields.io/badge/any%20browser-works%20offline-0969DA)](https://myturtlelab.github.io/sci50-html/)
 [![HKDSE](https://img.shields.io/badge/HKDSE-practice-8250DF)](#made-for-hkdse-students)
 [![price](https://img.shields.io/badge/price-free-1A7F37)](LICENSE.md)
@@ -11,11 +11,11 @@
 A two-line programmable scientific calculator that runs in your web browser, on a phone, tablet or computer.
 **Use it now:** https://myturtlelab.github.io/sci50-html/ · **Download:** [sci50.html](sci50.html) (one file, works without internet)
 
-![Sci-50 on a phone: the dark theme explaining built-in formula 02 (cosine theorem), and the light theme with 6÷2(2+1) = 1](docs/images/sci50-screens.png)
+![PracCalc on a phone: the dark theme explaining built-in formula 02 (cosine theorem), and the light theme with 6÷2(2+1) = 1](docs/images/sci50-screens.png)
 
 ## What it does
 
-Sci-50 is a calculator you can carry in your phone: the same keys, menus and two-line display as a programmable calculator for school maths, with ready-made programs and a built-in guide.
+PracCalc (練機, DSE practice calculator / DSE練習計數機; formerly Sci-50 programmable) is a calculator you can carry in your phone: the same keys, menus and two-line display as a programmable calculator for school maths, with ready-made programs and a built-in guide.
 
 | Benefit | What it means for you |
 | --- | --- |
@@ -26,7 +26,7 @@ Sci-50 is a calculator you can carry in your phone: the same keys, menus and two
 | Works anywhere | Phone, tablet or computer, online or offline. On a computer every calculator key has a keyboard key (press ? to see them). |
 | Private | No sign-up, no ads, no tracking. Your programs and settings stay in your browser. |
 
-> Free, with no ads, no account and no subscription. If Sci-50 helps you get ready for your exams, consider buying me a coffee.
+> Free, with no ads, no account and no subscription. If PracCalc helps you get ready for your exams, consider buying me a coffee.
 >
 > <a href="https://buymeacoffee.com/flyingturtle"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="45"></a>
 
@@ -35,7 +35,7 @@ Sci-50 is a calculator you can carry in your phone: the same keys, menus and two
 - **Same calculator, every day.** Practise on your phone on the bus with the same key sequences you will use on paper.
 - **Start early.** Students in junior forms can get used to the SHIFT and ALPHA layers, fraction keys and statistics mode before senior forms.
 - **Programs explained.** Each library program shows what it does, what to enter, a worked example and the keys to type it into a real calculator.
-- **Practice, not the exam room.** In the HKDSE, calculators may be used only if they are on the HKEAA [List of Permitted Calculators](https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Candidate_Handbook/7_26Annex_E.pdf) and carry the "H.K.E.A.A. APPROVED" label ([Instructions to Candidates](https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Candidate_Handbook/2_26Instructions_to_Candidates_E.pdf)). Sci-50 is a practice tool: it is not an examination-approved calculator and must not be used in examinations.
+- **Practice, not the exam room.** In the HKDSE, calculators may be used only if they are on the HKEAA [List of Permitted Calculators](https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Candidate_Handbook/7_26Annex_E.pdf) and carry the "H.K.E.A.A. APPROVED" label ([Instructions to Candidates](https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Candidate_Handbook/2_26Instructions_to_Candidates_E.pdf)). PracCalc is a practice tool: it is not an examination-approved calculator and must not be used in examinations.
 
 ## Key features
 
@@ -49,7 +49,7 @@ Sci-50 is a calculator you can carry in your phone: the same keys, menus and two
 
 ## Tested against published answers
 
-Every calculation below was keyed into the app key by key, as a person would key it, and the answer was read from what the display shows. All of them run again before each release that changes the calculator. Results are for version 0.3.22; version 0.3.23 changed only the About box text.
+Every calculation below was keyed into the app key by key, as a person would key it, and the answer was read from what the display shows. All of them run again before each release. Results are for version 0.3.24.
 
 Answers are judged at the precision the CASIO fx-50FH II user's guide states for this calculator type: up to 10 digits shown, 15 digits used inside, and ±1 in the 10th digit for one calculation. The other books were written for a more advanced calculator, so their answer counts as matched when, rounded to the digits this display shows, it is the same.
 
@@ -66,12 +66,12 @@ How to read the columns:
 - **Cases:** the user's guide's worked examples and stated rules, or the calculations in a book. **Used:** those this calculator type can do. **Passed** adds up the next two columns.
 - **Matches the book:** the display shows the printed answer at this calculator type's precision. That includes the book's number rounded to the 10 digits this display shows (76 cases) and one answer within ±1 in the 10th digit, the accuracy the user's guide states for one calculation. For the user's guide the whole screen is compared: upper line, lower line, labels and indicators; 29 of its 321 are rules the guide states without a printed answer (input ranges, limits, example programs), and each is followed. For the other books this column includes 116 calculations keyed another way, because the book's key does not exist on this calculator type: for example, a table value worked out as f(x) with x stored in X.
 - **Same value, shown differently:** the value is right; only the display differs. In the books, a decimal where the book shows a fraction, a surd or a multiple of π (28). In the user's guide (14): two statistics labels read xσn and xσn−1 where the guide writes σx and Sx, by design; eleven constant symbols draw their digit full size (C0) where the guide draws it small (C₀); and at a built-in formula's prompt the upper line keeps the formula's name where the guide leaves it empty. These last 12 are logged for a later version.
-- **Differs for a stated reason:** every one follows from this calculator type's own specification, as its user's guide gives it. 12 use scientific constants: this calculator type holds the CODATA 2010 values, the books' calculator newer ones, so the last digits differ. 2 are binary numbers outside this calculator type's binary range of −512 to 511, so Sci-50 shows Math ERROR.
+- **Differs for a stated reason:** every one follows from this calculator type's own specification, as its user's guide gives it. 12 use scientific constants: this calculator type holds the CODATA 2010 values, the books' calculator newer ones, so the last digits differ. 2 are binary numbers outside this calculator type's binary range of −512 to 511, so PracCalc shows Math ERROR.
 - **Not possible on this calculator type:** the equation solver, vectors, matrices, probability distributions, Σ, integrals and derivatives, the spreadsheet, unit conversion and other features this calculator type does not have.
 
 More references are still being checked. They will be added here when every case is settled.
 
-Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA528155-001V01); [CASIO Teaching Materials](https://www.casio.com/intl/scientific-calculators/teaching-materials/) (*Real-Life Problems*) and [Physics and Chemistry Materials](https://www.casio.com/intl/scientific-calculators/essential-materials/), free from CASIO; Martin Meyer, *College Math by practical application*, InnoLearn UG, 2009. These guides and books were used only as a source of test calculations and their published answers; nothing from them is in the app or in this repository. Sci-50 is not affiliated with, endorsed by or sponsored by CASIO Computer Co., Ltd., InnoLearn UG or the author. CASIO, fx-50FH II and the titles of the CASIO Teaching Materials are trademarks or titles of CASIO Computer Co., Ltd.
+Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA528155-001V01); [CASIO Teaching Materials](https://www.casio.com/intl/scientific-calculators/teaching-materials/) (*Real-Life Problems*) and [Physics and Chemistry Materials](https://www.casio.com/intl/scientific-calculators/essential-materials/), free from CASIO; Martin Meyer, *College Math by practical application*, InnoLearn UG, 2009. These guides and books were used only as a source of test calculations and their published answers; nothing from them is in the app or in this repository. PracCalc is not affiliated with, endorsed by or sponsored by CASIO Computer Co., Ltd., InnoLearn UG or the author. CASIO, fx-50FH II and the titles of the CASIO Teaching Materials are trademarks or titles of CASIO Computer Co., Ltd.
 
 ## Use it
 
@@ -86,7 +86,7 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
    - Windows (Command Prompt or PowerShell): `certutil -hashfile sci50.html SHA256`
    - macOS / Linux: `shasum -a 256 sci50.html`
 
-   SHA-256 of 0.3.23: `a43484e68f61b6003cc194c24d01f895941186300c61734e236a84fad74826cb`
+   SHA-256 of 0.3.24: `d0e027222eb53b58634b3666f4c7172d34f593aa57cd48e0ea1cbe1aa0858843`
 
 ## First steps
 
@@ -98,14 +98,13 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
 ## Update and remove
 
 - **Update:** the website copy updates itself. After a new version is published, open the app once while online, then close and reopen it. For the downloaded file, download the new `sci50.html`.
-- **Latest change (0.3.23):** the About box shows "Law Sir @ myTurtleLab", and its website link now opens cal50.pwc.hk. The calculator itself is unchanged.
 - **Remove:** delete the installed app (or the downloaded file). To remove saved programs and settings too, clear this site's data in your browser settings — export a backup first if you want to keep them.
 
 ## Troubleshooting
 
 | What you see | What to do |
 | --- | --- |
-| "Sci-50 is already open in another tab or window. Changes made here are not saved." | Only one copy saves at a time. Close the other tab or window, then reload this one. |
+| "PracCalc is already open in another tab or window. Changes made here are not saved." | Only one copy saves at a time. Close the other tab or window, then reload this one. |
 | My programs and settings are gone | Browsing data was cleared, or a private window was used. Restore your last backup: Menu → Backup & Restore → Import backup. |
 | "The clipboard could not be read." | Your browser blocked clipboard access. Allow it when the browser asks, or press Ctrl+V (⌘V) on a keyboard. |
 | The display is blank | The calculator is switched off (SHIFT AC). Press **ON**. |
@@ -153,7 +152,7 @@ sci50.html  (one self-contained file, about 0.7 MB)
 Website only:  manifest.webmanifest (install), sw.js (offline cache), icons/
 ```
 
-- **One engine for every platform.** The same calculator engine runs the Sci-50 Android app and this web version. It has no screen, storage or network code: it only turns key presses into display states, so it behaves the same on every device and can be tested on its own.
+- **One engine for every platform.** The same calculator engine runs the Android app and this web version. It has no screen, storage or network code: it only turns key presses into display states, so it behaves the same on every device and can be tested on its own.
 - **The screen shows only what the engine reports.** The display and keypad draw each state the engine gives them and add nothing of their own, so what you see is what the tests checked.
 - **One file.** The build packs the engine, the display, the app and the Program Library into a single HTML file. Nothing else is downloaded when it runs.
 - **Private by design.** A strict security policy inside the file blocks every network connection. Your settings, programs and photos stay in your browser; the app has no server.
@@ -166,7 +165,7 @@ The calculator collects no personal data and makes no network connections. Your 
 
 ## Support the project
 
-Sci-50 is made by one developer in spare time and will stay free: no ads, no account and no data collection. If it helps you, a coffee says thanks and pays for time on new features and fixes.
+PracCalc is made by one developer in spare time and will stay free: no ads, no account and no data collection. If it helps you, a coffee says thanks and pays for time on new features and fixes.
 
 <p align="center">
   <a href="https://buymeacoffee.com/flyingturtle"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="60"></a>
@@ -181,7 +180,7 @@ Sci-50 is made by one developer in spare time and will stay free: no ads, no acc
 
 ## Disclaimer
 
-Sci-50 is provided free of charge and "as is", without warranty of any kind. Check any result that matters by another method. It is not an examination-approved calculator, and it is not affiliated with or endorsed by any calculator maker or by the Hong Kong Examinations and Assessment Authority (HKEAA). HKDSE and HKEAA are named only to describe what the app is for.
+PracCalc is provided free of charge and "as is", without warranty of any kind. Check any result that matters by another method. It is not an examination-approved calculator, and it is not affiliated with or endorsed by any calculator maker or by the Hong Kong Examinations and Assessment Authority (HKEAA). HKDSE and HKEAA are named only to describe what the app is for.
 
 ## Licence
 
