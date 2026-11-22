@@ -2,7 +2,7 @@
 
 **Practise your HKDSE calculator skills anywhere. Free, offline, nothing to install.**
 
-[![version](https://img.shields.io/badge/version-v0.3.24-0969DA)](https://myturtlelab.github.io/sci50-html/)
+[![version](https://img.shields.io/badge/version-v0.3.52-0969DA)](https://myturtlelab.github.io/sci50-html/)
 [![any browser](https://img.shields.io/badge/any%20browser-works%20offline-0969DA)](https://myturtlelab.github.io/sci50-html/)
 [![HKDSE](https://img.shields.io/badge/HKDSE-practice-8250DF)](#made-for-hkdse-students)
 [![price](https://img.shields.io/badge/price-free-1A7F37)](LICENSE.md)
@@ -49,23 +49,23 @@ PracCalc (練機, DSE practice calculator / DSE練習計數機; formerly Sci-50 
 
 ## Tested against published answers
 
-Every calculation below was keyed into the app key by key, as a person would key it, and the answer was read from what the display shows. All of them run again before each release. Results are for version 0.3.24.
+Every calculation below was keyed into the app key by key, as a person would key it, and the answer was read from what the display shows. All of them run again before each release. Results are for version 0.3.52.
 
 Answers are judged at the precision the CASIO fx-50FH II user's guide states for this calculator type: up to 10 digits shown, 15 digits used inside, and ±1 in the 10th digit for one calculation. The other books were written for a more advanced calculator, so their answer counts as matched when, rounded to the digits this display shows, it is the same.
 
 | <sub>Source</sub> | <sub>Cases</sub> | <sub>Used</sub> | <sub>Passed</sub> | <sub>Matches the book</sub> | <sub>Same value, shown differently</sub> | <sub>Differs for a stated reason</sub> | <sub>Failed</sub> | <sub>Not possible on this calculator type</sub> |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| <sub>CASIO <i>fx-50FH II 用戶說明書</i> (user's guide, Traditional Chinese edition, RJA528155-001V01): every worked example and stated rule</sub> | <sub>335</sub> | <sub>335</sub> | <sub>335</sub> | <sub>321</sub> | <sub>14</sub> | <sub>0</sub> | <sub>0</sub> | <sub>0</sub> |
+| <sub>CASIO <i>fx-50FH II 用戶說明書</i> (user's guide, Traditional Chinese edition, RJA528155-001V01): every worked example and stated rule</sub> | <sub>335</sub> | <sub>335</sub> | <sub>335</sub> | <sub>335</sub> | <sub>0</sub> | <sub>0</sub> | <sub>0</sub> | <sub>0</sub> |
 | <sub>CASIO Teaching Materials: <i>Real-Life Problems</i></sub> | <sub>553</sub> | <sub>354</sub> | <sub>352</sub> | <sub>340</sub> | <sub>12</sub> | <sub>2</sub> | <sub>0</sub> | <sub>199</sub> |
 | <sub>CASIO Teaching Materials: <i>Chemistry Materials</i></sub> | <sub>207</sub> | <sub>134</sub> | <sub>131</sub> | <sub>126</sub> | <sub>5</sub> | <sub>3</sub> | <sub>0</sub> | <sub>73</sub> |
 | <sub>CASIO Teaching Materials: <i>Physics Materials</i></sub> | <sub>168</sub> | <sub>124</sub> | <sub>115</sub> | <sub>114</sub> | <sub>1</sub> | <sub>9</sub> | <sub>0</sub> | <sub>44</sub> |
 | <sub>Martin Meyer, <i>College Math by practical application</i> (InnoLearn UG, 2009)</sub> | <sub>134</sub> | <sub>82</sub> | <sub>82</sub> | <sub>72</sub> | <sub>10</sub> | <sub>0</sub> | <sub>0</sub> | <sub>52</sub> |
-| <sub><b>Total</b></sub> | <sub><b>1,397</b></sub> | <sub><b>1,029</b></sub> | <sub><b>1,015</b></sub> | <sub><b>973</b></sub> | <sub><b>42</b></sub> | <sub><b>14</b></sub> | <sub><b>0</b></sub> | <sub><b>368</b></sub> |
+| <sub><b>Total</b></sub> | <sub><b>1,397</b></sub> | <sub><b>1,029</b></sub> | <sub><b>1,015</b></sub> | <sub><b>987</b></sub> | <sub><b>28</b></sub> | <sub><b>14</b></sub> | <sub><b>0</b></sub> | <sub><b>368</b></sub> |
 
 How to read the columns:
 - **Cases:** the user's guide's worked examples and stated rules, or the calculations in a book. **Used:** those this calculator type can do. **Passed** adds up the next two columns.
-- **Matches the book:** the display shows the printed answer at this calculator type's precision. That includes the book's number rounded to the 10 digits this display shows (76 cases) and one answer within ±1 in the 10th digit, the accuracy the user's guide states for one calculation. For the user's guide the whole screen is compared: upper line, lower line, labels and indicators; 29 of its 321 are rules the guide states without a printed answer (input ranges, limits, example programs), and each is followed. For the other books this column includes 116 calculations keyed another way, because the book's key does not exist on this calculator type: for example, a table value worked out as f(x) with x stored in X.
-- **Same value, shown differently:** the value is right; only the display differs. In the books, a decimal where the book shows a fraction, a surd or a multiple of π (28). In the user's guide (14): two statistics labels read xσn and xσn−1 where the guide writes σx and Sx, by design; eleven constant symbols draw their digit full size (C0) where the guide draws it small (C₀); and at a built-in formula's prompt the upper line keeps the formula's name where the guide leaves it empty. These last 12 are logged for a later version.
+- **Matches the book:** the display shows the printed answer at this calculator type's precision. That includes the book's number rounded to the 10 digits this display shows (78 cases) and one answer within ±1 in the 10th digit, the accuracy the user's guide states for one calculation. For the user's guide the whole screen is compared: upper line, lower line, labels and indicators; 29 of its 335 are rules the guide states without a printed answer (input ranges, limits, example programs), and each is followed. For the other books this column includes 116 calculations keyed another way, because the book's key does not exist on this calculator type: for example, a table value worked out as f(x) with x stored in X.
+- **Same value, shown differently:** the value is right; only the display differs: a decimal where the book shows a fraction, a surd or a multiple of π.
 - **Differs for a stated reason:** every one follows from this calculator type's own specification, as its user's guide gives it. 12 use scientific constants: this calculator type holds the CODATA 2010 values, the books' calculator newer ones, so the last digits differ. 2 are binary numbers outside this calculator type's binary range of −512 to 511, so PracCalc shows Math ERROR.
 - **Not possible on this calculator type:** the equation solver, vectors, matrices, probability distributions, Σ, integrals and derivatives, the spreadsheet, unit conversion and other features this calculator type does not have.
 
@@ -86,7 +86,7 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
    - Windows (Command Prompt or PowerShell): `certutil -hashfile sci50.html SHA256`
    - macOS / Linux: `shasum -a 256 sci50.html`
 
-   SHA-256 of 0.3.24: `d0e027222eb53b58634b3666f4c7172d34f593aa57cd48e0ea1cbe1aa0858843`
+   SHA-256 of 0.3.52: `b33f1ebb02aa1291a6e91b8a9c33beaaf559b372310eec4fb3cee69095e43e98`
 
 ## First steps
 
