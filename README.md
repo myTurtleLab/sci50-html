@@ -2,7 +2,7 @@
 
 **Practise your HKDSE calculator skills anywhere. Free, offline, nothing to install.**
 
-[![version](https://img.shields.io/badge/version-v0.3.53-0969DA)](https://myturtlelab.github.io/sci50-html/)
+[![version](https://img.shields.io/badge/version-v0.3.54-0969DA)](https://myturtlelab.github.io/sci50-html/)
 [![any browser](https://img.shields.io/badge/any%20browser-works%20offline-0969DA)](https://myturtlelab.github.io/sci50-html/)
 [![HKDSE](https://img.shields.io/badge/HKDSE-practice-8250DF)](#made-for-hkdse-students)
 [![price](https://img.shields.io/badge/price-free-1A7F37)](LICENSE.md)
@@ -49,7 +49,7 @@ PracCalc (練機, DSE practice calculator / DSE練習計數機; formerly Sci-50 
 
 ## Tested against published answers
 
-Every calculation below was keyed into the app key by key, as a person would key it, and the answer was read from what the display shows. All of them run again before each release. Results are for version 0.3.53.
+Every calculation below was keyed into the app key by key, as a person would key it, and the answer was read from what the display shows. All of them run again before each release. Results are for version 0.3.54.
 
 Answers are judged at the precision the CASIO fx-50FH II user's guide states for this calculator type: up to 10 digits shown, 15 digits used inside, and ±1 in the 10th digit for one calculation. The other books were written for a more advanced calculator, so their answer counts as matched when, rounded to the digits this display shows, it is the same.
 
@@ -78,6 +78,7 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
 **Option 1 — on the website (recommended for phones and tablets)**
 1. Open https://myturtlelab.github.io/sci50-html/.
 2. To keep it as an app: on iPhone or iPad, tap Share → **Add to Home Screen**; on Android or a computer, choose **Install app** (or **Add to Home screen**) in the browser menu. It then opens in its own window and works without internet.
+3. More room on a phone: in Chrome or Samsung Internet, the app's menu (⋮) → **Full screen** hides the browser and system bars. Safari on iPhone has no full screen for web pages; **Add to Home Screen** gives the most room there.
 
 **Option 2 — download the file (computers and Android phones)**
 1. Download [sci50.html](sci50.html) and save it anywhere.
@@ -86,7 +87,7 @@ Sources: the CASIO fx-50FH II user's guide, Traditional Chinese edition (RJA5281
    - Windows (Command Prompt or PowerShell): `certutil -hashfile sci50.html SHA256`
    - macOS / Linux: `shasum -a 256 sci50.html`
 
-   SHA-256 of 0.3.53: `5ae2e388e9f667170b3f4747d11b8ea6352e5db798627f011d4fbaf624dce775`
+   SHA-256 of 0.3.54: `bb6ee2774ca4841ff38f6d2d2db878e3987465b3d92621a448c2b9281911dce6`
 
 ## First steps
 
